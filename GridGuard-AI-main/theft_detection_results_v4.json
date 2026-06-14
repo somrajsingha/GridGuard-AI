@@ -1,0 +1,1218 @@
+{
+  "transformer": {
+    "type": "transformer",
+    "lat": 30.7333,
+    "lng": 76.7794,
+    "loss": 80.1349,
+    "loss_percentage": 0.1187,
+    "status": "Warning",
+    "estimated_loss_in_rupees": 641.08
+  },
+  "transformer_metrics": {
+    "total_house_consumption": 675.2412,
+    "expected_transformer_load": 601.3023,
+    "transformer_loss": 80.1349,
+    "loss_ratio": 0.1187,
+    "zone_status": "Warning",
+    "estimated_loss_in_rupees": 641.08,
+    "last_updated": "2026-04-19T11:30:02"
+  },
+  "insights": {
+    "top_5_houses": [
+      {
+        "house_id": 8,
+        "lat": 30.731361,
+        "lng": 76.774554,
+        "risk_score": 92,
+        "risk_level": "high",
+        "reason": {
+          "primary": "load mismatch",
+          "secondary": [
+            "abnormal peak",
+            "high night usage",
+            "transformer overload"
+          ]
+        },
+        "confidence": "high (65–79%)",
+        "zone": "High Risk Cluster B",
+        "anomaly_score": -0.400642,
+        "average_consumption": 18.6867,
+        "max_consumption": 23.6041,
+        "std_consumption": 3.5095,
+        "night_usage_ratio": 0.8364,
+        "consumption_difference": 10.6064,
+        "transformer_load_share": 0.3332,
+        "priority_rank": 1
+      },
+      {
+        "house_id": 23,
+        "lat": 30.73691,
+        "lng": 76.783512,
+        "risk_score": 91,
+        "risk_level": "high",
+        "reason": {
+          "primary": "sudden spike",
+          "secondary": [
+            "load mismatch"
+          ]
+        },
+        "confidence": "very high (≥80%)",
+        "zone": "High Risk Cluster A",
+        "anomaly_score": -0.567259,
+        "average_consumption": 18.8287,
+        "max_consumption": 25.7814,
+        "std_consumption": 0.7361,
+        "night_usage_ratio": 0.3825,
+        "consumption_difference": 1.4622,
+        "transformer_load_share": 0.035,
+        "priority_rank": 2
+      },
+      {
+        "house_id": 11,
+        "lat": 30.730173,
+        "lng": 76.776572,
+        "risk_score": 83,
+        "risk_level": "high",
+        "reason": {
+          "primary": "load mismatch",
+          "secondary": [
+            "high night usage",
+            "abnormal peak"
+          ]
+        },
+        "confidence": "high (65–79%)",
+        "zone": "High Risk Cluster A",
+        "anomaly_score": -0.614026,
+        "average_consumption": 15.0983,
+        "max_consumption": 19.8819,
+        "std_consumption": 3.6111,
+        "night_usage_ratio": 0.3664,
+        "consumption_difference": 8.3437,
+        "transformer_load_share": 0.0225,
+        "priority_rank": 3
+      },
+      {
+        "house_id": 44,
+        "lat": 30.735671,
+        "lng": 76.777242,
+        "risk_score": 82,
+        "risk_level": "high",
+        "reason": {
+          "primary": "load mismatch",
+          "secondary": [
+            "sudden spike"
+          ]
+        },
+        "confidence": "high (65–79%)",
+        "zone": "High Risk Cluster A",
+        "anomaly_score": -0.782476,
+        "average_consumption": 16.633,
+        "max_consumption": 23.3031,
+        "std_consumption": 0.528,
+        "night_usage_ratio": 0.192,
+        "consumption_difference": -0.9893,
+        "transformer_load_share": 0.0785,
+        "priority_rank": 4
+      },
+      {
+        "house_id": 18,
+        "lat": 30.735997,
+        "lng": 76.784418,
+        "risk_score": 62,
+        "risk_level": "medium",
+        "reason": {
+          "primary": "statistical anomaly",
+          "secondary": [
+            "abnormal peak"
+          ]
+        },
+        "confidence": "medium (35–64%)",
+        "zone": "Moderate Risk Zone",
+        "anomaly_score": -0.489118,
+        "average_consumption": 14.1189,
+        "max_consumption": 21.3928,
+        "std_consumption": 4.0378,
+        "night_usage_ratio": 0.1565,
+        "consumption_difference": 0.5732,
+        "transformer_load_share": 0.373,
+        "priority_rank": 5
+      }
+    ],
+    "total_high_risk": 4,
+    "zone_status": "Warning",
+    "estimated_loss": 641.08
+  },
+  "houses": [
+    {
+      "house_id": 8,
+      "lat": 30.731361,
+      "lng": 76.774554,
+      "risk_score": 92,
+      "risk_level": "high",
+      "reason": {
+        "primary": "load mismatch",
+        "secondary": [
+          "abnormal peak",
+          "high night usage",
+          "transformer overload"
+        ]
+      },
+      "confidence": "high (65–79%)",
+      "zone": "High Risk Cluster B",
+      "anomaly_score": -0.400642,
+      "average_consumption": 18.6867,
+      "max_consumption": 23.6041,
+      "std_consumption": 3.5095,
+      "night_usage_ratio": 0.8364,
+      "consumption_difference": 10.6064,
+      "transformer_load_share": 0.3332,
+      "priority_rank": 1
+    },
+    {
+      "house_id": 23,
+      "lat": 30.73691,
+      "lng": 76.783512,
+      "risk_score": 91,
+      "risk_level": "high",
+      "reason": {
+        "primary": "sudden spike",
+        "secondary": [
+          "load mismatch"
+        ]
+      },
+      "confidence": "very high (≥80%)",
+      "zone": "High Risk Cluster A",
+      "anomaly_score": -0.567259,
+      "average_consumption": 18.8287,
+      "max_consumption": 25.7814,
+      "std_consumption": 0.7361,
+      "night_usage_ratio": 0.3825,
+      "consumption_difference": 1.4622,
+      "transformer_load_share": 0.035,
+      "priority_rank": 2
+    },
+    {
+      "house_id": 11,
+      "lat": 30.730173,
+      "lng": 76.776572,
+      "risk_score": 83,
+      "risk_level": "high",
+      "reason": {
+        "primary": "load mismatch",
+        "secondary": [
+          "high night usage",
+          "abnormal peak"
+        ]
+      },
+      "confidence": "high (65–79%)",
+      "zone": "High Risk Cluster A",
+      "anomaly_score": -0.614026,
+      "average_consumption": 15.0983,
+      "max_consumption": 19.8819,
+      "std_consumption": 3.6111,
+      "night_usage_ratio": 0.3664,
+      "consumption_difference": 8.3437,
+      "transformer_load_share": 0.0225,
+      "priority_rank": 3
+    },
+    {
+      "house_id": 44,
+      "lat": 30.735671,
+      "lng": 76.777242,
+      "risk_score": 82,
+      "risk_level": "high",
+      "reason": {
+        "primary": "load mismatch",
+        "secondary": [
+          "sudden spike"
+        ]
+      },
+      "confidence": "high (65–79%)",
+      "zone": "High Risk Cluster A",
+      "anomaly_score": -0.782476,
+      "average_consumption": 16.633,
+      "max_consumption": 23.3031,
+      "std_consumption": 0.528,
+      "night_usage_ratio": 0.192,
+      "consumption_difference": -0.9893,
+      "transformer_load_share": 0.0785,
+      "priority_rank": 4
+    },
+    {
+      "house_id": 18,
+      "lat": 30.735997,
+      "lng": 76.784418,
+      "risk_score": 62,
+      "risk_level": "medium",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": [
+          "abnormal peak"
+        ]
+      },
+      "confidence": "medium (35–64%)",
+      "zone": "Moderate Risk Zone",
+      "anomaly_score": -0.489118,
+      "average_consumption": 14.1189,
+      "max_consumption": 21.3928,
+      "std_consumption": 4.0378,
+      "night_usage_ratio": 0.1565,
+      "consumption_difference": 0.5732,
+      "transformer_load_share": 0.373,
+      "priority_rank": 5
+    },
+    {
+      "house_id": 34,
+      "lat": 30.727341,
+      "lng": 76.779733,
+      "risk_score": 56,
+      "risk_level": "medium",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "medium (35–64%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.665059,
+      "average_consumption": 11.7988,
+      "max_consumption": 22.597,
+      "std_consumption": 5.7142,
+      "night_usage_ratio": 0.6906,
+      "consumption_difference": 0.2284,
+      "transformer_load_share": 0.172,
+      "priority_rank": 6
+    },
+    {
+      "house_id": 17,
+      "lat": 30.726889,
+      "lng": 76.770783,
+      "risk_score": 54,
+      "risk_level": "medium",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "medium (35–64%)",
+      "zone": "Moderate Risk Zone",
+      "anomaly_score": -0.496062,
+      "average_consumption": 17.467,
+      "max_consumption": 22.3758,
+      "std_consumption": 3.733,
+      "night_usage_ratio": 0.4194,
+      "consumption_difference": -1.1239,
+      "transformer_load_share": 0.1977,
+      "priority_rank": 7
+    },
+    {
+      "house_id": 46,
+      "lat": 30.725463,
+      "lng": 76.786669,
+      "risk_score": 51,
+      "risk_level": "medium",
+      "reason": {
+        "primary": "load mismatch",
+        "secondary": [
+          "phase imbalance"
+        ]
+      },
+      "confidence": "medium (35–64%)",
+      "zone": "Moderate Risk Zone",
+      "anomaly_score": -0.791866,
+      "average_consumption": 19.36,
+      "max_consumption": 25.2777,
+      "std_consumption": 2.4037,
+      "night_usage_ratio": 0.3658,
+      "consumption_difference": 7.704,
+      "transformer_load_share": 0.047,
+      "priority_rank": 8
+    },
+    {
+      "house_id": 47,
+      "lat": 30.728203,
+      "lng": 76.780823,
+      "risk_score": 44,
+      "risk_level": "medium",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": [
+          "load mismatch"
+        ]
+      },
+      "confidence": "medium (35–64%)",
+      "zone": "Moderate Risk Zone",
+      "anomaly_score": -0.444861,
+      "average_consumption": 10.6778,
+      "max_consumption": 15.2863,
+      "std_consumption": 3.1236,
+      "night_usage_ratio": 0.2155,
+      "consumption_difference": 4.7741,
+      "transformer_load_share": 0.3116,
+      "priority_rank": 9
+    },
+    {
+      "house_id": 7,
+      "lat": 30.738466,
+      "lng": 76.772546,
+      "risk_score": 39,
+      "risk_level": "medium",
+      "reason": {
+        "primary": "load mismatch",
+        "secondary": [
+          "abnormal peak",
+          "sudden spike"
+        ]
+      },
+      "confidence": "medium (35–64%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.402326,
+      "average_consumption": 12.787,
+      "max_consumption": 17.5583,
+      "std_consumption": 1.1649,
+      "night_usage_ratio": 0.6504,
+      "consumption_difference": 3.7339,
+      "transformer_load_share": 0.0669,
+      "priority_rank": 10
+    },
+    {
+      "house_id": 38,
+      "lat": 30.738474,
+      "lng": 76.778397,
+      "risk_score": 34,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.52681,
+      "average_consumption": 5.2384,
+      "max_consumption": 14.4345,
+      "std_consumption": 1.5851,
+      "night_usage_ratio": 0.4756,
+      "consumption_difference": 5.8047,
+      "transformer_load_share": 0.335,
+      "priority_rank": 11
+    },
+    {
+      "house_id": 40,
+      "lat": 30.743587,
+      "lng": 76.772231,
+      "risk_score": 34,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.448927,
+      "average_consumption": 21.4369,
+      "max_consumption": 24.4248,
+      "std_consumption": 4.0696,
+      "night_usage_ratio": 0.6587,
+      "consumption_difference": -2.7529,
+      "transformer_load_share": 0.2924,
+      "priority_rank": 12
+    },
+    {
+      "house_id": 21,
+      "lat": 30.732125,
+      "lng": 76.785673,
+      "risk_score": 32,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.727068,
+      "average_consumption": 14.9293,
+      "max_consumption": 22.736,
+      "std_consumption": 3.7893,
+      "night_usage_ratio": 0.5738,
+      "consumption_difference": 10.2264,
+      "transformer_load_share": 0.1138,
+      "priority_rank": 13
+    },
+    {
+      "house_id": 3,
+      "lat": 30.735153,
+      "lng": 76.780728,
+      "risk_score": 30,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.407414,
+      "average_consumption": 13.3268,
+      "max_consumption": 17.7113,
+      "std_consumption": 3.1051,
+      "night_usage_ratio": 0.2859,
+      "consumption_difference": 8.9235,
+      "transformer_load_share": 0.2987,
+      "priority_rank": 14
+    },
+    {
+      "house_id": 14,
+      "lat": 30.741793,
+      "lng": 76.770595,
+      "risk_score": 30,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.744125,
+      "average_consumption": 14.6547,
+      "max_consumption": 24.1985,
+      "std_consumption": 3.9266,
+      "night_usage_ratio": 0.1159,
+      "consumption_difference": 8.7029,
+      "transformer_load_share": 0.1704,
+      "priority_rank": 15
+    },
+    {
+      "house_id": 12,
+      "lat": 30.728752,
+      "lng": 76.769903,
+      "risk_score": 29,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.718479,
+      "average_consumption": 15.1859,
+      "max_consumption": 19.8562,
+      "std_consumption": 3.4258,
+      "night_usage_ratio": 0.1322,
+      "consumption_difference": -2.5182,
+      "transformer_load_share": 0.1891,
+      "priority_rank": 16
+    },
+    {
+      "house_id": 4,
+      "lat": 30.737172,
+      "lng": 76.783443,
+      "risk_score": 28,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.519134,
+      "average_consumption": 17.6962,
+      "max_consumption": 28.7324,
+      "std_consumption": 1.7513,
+      "night_usage_ratio": 0.3558,
+      "consumption_difference": -1.9579,
+      "transformer_load_share": 0.2216,
+      "priority_rank": 17
+    },
+    {
+      "house_id": 9,
+      "lat": 30.727881,
+      "lng": 76.784564,
+      "risk_score": 27,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.76254,
+      "average_consumption": 15.2291,
+      "max_consumption": 17.5227,
+      "std_consumption": 1.2541,
+      "night_usage_ratio": 0.1626,
+      "consumption_difference": -2.679,
+      "transformer_load_share": 0.3288,
+      "priority_rank": 18
+    },
+    {
+      "house_id": 19,
+      "lat": 30.743177,
+      "lng": 76.786502,
+      "risk_score": 27,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.446518,
+      "average_consumption": 7.0835,
+      "max_consumption": 11.9966,
+      "std_consumption": 5.7607,
+      "night_usage_ratio": 0.7291,
+      "consumption_difference": -0.9859,
+      "transformer_load_share": 0.1084,
+      "priority_rank": 19
+    },
+    {
+      "house_id": 49,
+      "lat": 30.73849,
+      "lng": 76.785095,
+      "risk_score": 27,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.743883,
+      "average_consumption": 13.0103,
+      "max_consumption": 23.4037,
+      "std_consumption": 4.665,
+      "night_usage_ratio": 0.2408,
+      "consumption_difference": 6.9479,
+      "transformer_load_share": 0.302,
+      "priority_rank": 20
+    },
+    {
+      "house_id": 16,
+      "lat": 30.740634,
+      "lng": 76.776414,
+      "risk_score": 26,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.720993,
+      "average_consumption": 5.6252,
+      "max_consumption": 15.4396,
+      "std_consumption": 3.623,
+      "night_usage_ratio": 0.1954,
+      "consumption_difference": 6.5924,
+      "transformer_load_share": 0.3363,
+      "priority_rank": 21
+    },
+    {
+      "house_id": 28,
+      "lat": 30.728873,
+      "lng": 76.787639,
+      "risk_score": 26,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.533893,
+      "average_consumption": 14.0313,
+      "max_consumption": 20.5635,
+      "std_consumption": 0.6415,
+      "night_usage_ratio": 0.3397,
+      "consumption_difference": 3.3887,
+      "transformer_load_share": 0.2816,
+      "priority_rank": 22
+    },
+    {
+      "house_id": 29,
+      "lat": 30.729955,
+      "lng": 76.785154,
+      "risk_score": 26,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.612291,
+      "average_consumption": 10.226,
+      "max_consumption": 20.0152,
+      "std_consumption": 5.113,
+      "night_usage_ratio": 0.737,
+      "consumption_difference": 9.7339,
+      "transformer_load_share": 0.4165,
+      "priority_rank": 23
+    },
+    {
+      "house_id": 41,
+      "lat": 30.733639,
+      "lng": 76.784702,
+      "risk_score": 26,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.742062,
+      "average_consumption": 19.6218,
+      "max_consumption": 24.4217,
+      "std_consumption": 1.9684,
+      "night_usage_ratio": 0.507,
+      "consumption_difference": -1.5473,
+      "transformer_load_share": 0.32,
+      "priority_rank": 24
+    },
+    {
+      "house_id": 10,
+      "lat": 30.724983,
+      "lng": 76.776952,
+      "risk_score": 25,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.570185,
+      "average_consumption": 8.4309,
+      "max_consumption": 12.734,
+      "std_consumption": 0.5852,
+      "night_usage_ratio": 0.5447,
+      "consumption_difference": 0.8083,
+      "transformer_load_share": 0.0678,
+      "priority_rank": 25
+    },
+    {
+      "house_id": 22,
+      "lat": 30.726842,
+      "lng": 76.776977,
+      "risk_score": 25,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.530618,
+      "average_consumption": 18.4808,
+      "max_consumption": 28.2767,
+      "std_consumption": 5.7747,
+      "night_usage_ratio": 0.193,
+      "consumption_difference": 5.7641,
+      "transformer_load_share": 0.4224,
+      "priority_rank": 26
+    },
+    {
+      "house_id": 20,
+      "lat": 30.740261,
+      "lng": 76.777266,
+      "risk_score": 24,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.754688,
+      "average_consumption": 21.5327,
+      "max_consumption": 29.2113,
+      "std_consumption": 4.6196,
+      "night_usage_ratio": 0.3016,
+      "consumption_difference": 2.1709,
+      "transformer_load_share": 0.1986,
+      "priority_rank": 27
+    },
+    {
+      "house_id": 27,
+      "lat": 30.728183,
+      "lng": 76.779023,
+      "risk_score": 24,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.798194,
+      "average_consumption": 18.9237,
+      "max_consumption": 23.2741,
+      "std_consumption": 4.9545,
+      "night_usage_ratio": 0.2321,
+      "consumption_difference": 2.6738,
+      "transformer_load_share": 0.373,
+      "priority_rank": 28
+    },
+    {
+      "house_id": 36,
+      "lat": 30.740639,
+      "lng": 76.782614,
+      "risk_score": 21,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.679602,
+      "average_consumption": 5.8862,
+      "max_consumption": 17.0884,
+      "std_consumption": 5.8056,
+      "night_usage_ratio": 0.1567,
+      "consumption_difference": 3.7821,
+      "transformer_load_share": 0.2661,
+      "priority_rank": 29
+    },
+    {
+      "house_id": 13,
+      "lat": 30.73273,
+      "lng": 76.771725,
+      "risk_score": 19,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.48368,
+      "average_consumption": 8.9731,
+      "max_consumption": 14.081,
+      "std_consumption": 2.3006,
+      "night_usage_ratio": 0.6563,
+      "consumption_difference": 3.9446,
+      "transformer_load_share": 0.3534,
+      "priority_rank": 30
+    },
+    {
+      "house_id": 26,
+      "lat": 30.728274,
+      "lng": 76.778234,
+      "risk_score": 19,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.641582,
+      "average_consumption": 11.4225,
+      "max_consumption": 22.8855,
+      "std_consumption": 5.0576,
+      "night_usage_ratio": 0.4284,
+      "consumption_difference": 9.0087,
+      "transformer_load_share": 0.26,
+      "priority_rank": 31
+    },
+    {
+      "house_id": 31,
+      "lat": 30.739128,
+      "lng": 76.777523,
+      "risk_score": 19,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.40787,
+      "average_consumption": 18.0821,
+      "max_consumption": 22.1392,
+      "std_consumption": 4.6094,
+      "night_usage_ratio": 0.2795,
+      "consumption_difference": 7.6812,
+      "transformer_load_share": 0.415,
+      "priority_rank": 32
+    },
+    {
+      "house_id": 37,
+      "lat": 30.738403,
+      "lng": 76.779706,
+      "risk_score": 19,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.72546,
+      "average_consumption": 12.1942,
+      "max_consumption": 23.66,
+      "std_consumption": 4.3591,
+      "night_usage_ratio": 0.8002,
+      "consumption_difference": 3.2574,
+      "transformer_load_share": 0.367,
+      "priority_rank": 33
+    },
+    {
+      "house_id": 1,
+      "lat": 30.734716,
+      "lng": 76.769702,
+      "risk_score": 17,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.615436,
+      "average_consumption": 20.9335,
+      "max_consumption": 31.891,
+      "std_consumption": 3.3934,
+      "night_usage_ratio": 0.4927,
+      "consumption_difference": 7.0284,
+      "transformer_load_share": 0.0821,
+      "priority_rank": 34
+    },
+    {
+      "house_id": 30,
+      "lat": 30.724324,
+      "lng": 76.785739,
+      "risk_score": 17,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.668032,
+      "average_consumption": 14.0618,
+      "max_consumption": 24.9536,
+      "std_consumption": 4.8787,
+      "night_usage_ratio": 0.3984,
+      "consumption_difference": 4.6178,
+      "transformer_load_share": 0.4078,
+      "priority_rank": 35
+    },
+    {
+      "house_id": 35,
+      "lat": 30.735338,
+      "lng": 76.778269,
+      "risk_score": 16,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.635439,
+      "average_consumption": 5.1972,
+      "max_consumption": 9.55,
+      "std_consumption": 3.8983,
+      "night_usage_ratio": 0.2675,
+      "consumption_difference": 6.5636,
+      "transformer_load_share": 0.1806,
+      "priority_rank": 36
+    },
+    {
+      "house_id": 39,
+      "lat": 30.73443,
+      "lng": 76.776858,
+      "risk_score": 14,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.704502,
+      "average_consumption": 8.1896,
+      "max_consumption": 15.9589,
+      "std_consumption": 2.2483,
+      "night_usage_ratio": 0.3491,
+      "consumption_difference": 2.9994,
+      "transformer_load_share": 0.3227,
+      "priority_rank": 37
+    },
+    {
+      "house_id": 5,
+      "lat": 30.731918,
+      "lng": 76.778418,
+      "risk_score": 12,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.661003,
+      "average_consumption": 12.8457,
+      "max_consumption": 16.1777,
+      "std_consumption": 5.8416,
+      "night_usage_ratio": 0.6908,
+      "consumption_difference": -2.0146,
+      "transformer_load_share": 0.2131,
+      "priority_rank": 38
+    },
+    {
+      "house_id": 42,
+      "lat": 30.740952,
+      "lng": 76.772615,
+      "risk_score": 12,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.761564,
+      "average_consumption": 16.0861,
+      "max_consumption": 25.5696,
+      "std_consumption": 1.6577,
+      "night_usage_ratio": 0.5928,
+      "consumption_difference": -1.297,
+      "transformer_load_share": 0.1025,
+      "priority_rank": 39
+    },
+    {
+      "house_id": 50,
+      "lat": 30.730151,
+      "lng": 76.775545,
+      "risk_score": 12,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.654615,
+      "average_consumption": 21.7119,
+      "max_consumption": 26.235,
+      "std_consumption": 3.4912,
+      "night_usage_ratio": 0.2371,
+      "consumption_difference": -0.919,
+      "transformer_load_share": 0.0958,
+      "priority_rank": 40
+    },
+    {
+      "house_id": 15,
+      "lat": 30.729084,
+      "lng": 76.781812,
+      "risk_score": 11,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.78494,
+      "average_consumption": 18.2301,
+      "max_consumption": 20.2498,
+      "std_consumption": 3.0647,
+      "night_usage_ratio": 0.298,
+      "consumption_difference": 4.3035,
+      "transformer_load_share": 0.1221,
+      "priority_rank": 41
+    },
+    {
+      "house_id": 48,
+      "lat": 30.725461,
+      "lng": 76.778696,
+      "risk_score": 10,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.401994,
+      "average_consumption": 16.0327,
+      "max_consumption": 20.1682,
+      "std_consumption": 3.7343,
+      "night_usage_ratio": 0.1193,
+      "consumption_difference": 9.9002,
+      "transformer_load_share": 0.3527,
+      "priority_rank": 42
+    },
+    {
+      "house_id": 6,
+      "lat": 30.728472,
+      "lng": 76.787135,
+      "risk_score": 9,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.447673,
+      "average_consumption": 16.816,
+      "max_consumption": 22.5665,
+      "std_consumption": 1.4105,
+      "night_usage_ratio": 0.4521,
+      "consumption_difference": 7.1663,
+      "transformer_load_share": 0.3333,
+      "priority_rank": 43
+    },
+    {
+      "house_id": 2,
+      "lat": 30.72461,
+      "lng": 76.773747,
+      "risk_score": 6,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.59861,
+      "average_consumption": 5.6786,
+      "max_consumption": 9.4145,
+      "std_consumption": 3.9991,
+      "night_usage_ratio": 0.5174,
+      "consumption_difference": -0.7341,
+      "transformer_load_share": 0.2469,
+      "priority_rank": 44
+    },
+    {
+      "house_id": 25,
+      "lat": 30.735851,
+      "lng": 76.780303,
+      "risk_score": 6,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.665223,
+      "average_consumption": 9.1642,
+      "max_consumption": 14.4961,
+      "std_consumption": 2.3727,
+      "night_usage_ratio": 0.8457,
+      "consumption_difference": 7.7879,
+      "transformer_load_share": 0.1864,
+      "priority_rank": 45
+    },
+    {
+      "house_id": 43,
+      "lat": 30.726569,
+      "lng": 76.782563,
+      "risk_score": 5,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.740464,
+      "average_consumption": 13.5356,
+      "max_consumption": 18.5458,
+      "std_consumption": 2.8004,
+      "night_usage_ratio": 0.7413,
+      "consumption_difference": 9.9713,
+      "transformer_load_share": 0.0716,
+      "priority_rank": 46
+    },
+    {
+      "house_id": 32,
+      "lat": 30.724238,
+      "lng": 76.788145,
+      "risk_score": 4,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.507691,
+      "average_consumption": 6.776,
+      "max_consumption": 18.1934,
+      "std_consumption": 3.7085,
+      "night_usage_ratio": 0.844,
+      "consumption_difference": 0.6889,
+      "transformer_load_share": 0.0439,
+      "priority_rank": 47
+    },
+    {
+      "house_id": 45,
+      "lat": 30.735595,
+      "lng": 76.7789,
+      "risk_score": 2,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.774293,
+      "average_consumption": 7.3997,
+      "max_consumption": 10.5253,
+      "std_consumption": 1.6284,
+      "night_usage_ratio": 0.8025,
+      "consumption_difference": 11.2973,
+      "transformer_load_share": 0.4303,
+      "priority_rank": 48
+    },
+    {
+      "house_id": 24,
+      "lat": 30.737374,
+      "lng": 76.770956,
+      "risk_score": 1,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.4919,
+      "average_consumption": 7.7967,
+      "max_consumption": 19.6473,
+      "std_consumption": 5.0916,
+      "night_usage_ratio": 0.4517,
+      "consumption_difference": 0.4757,
+      "transformer_load_share": 0.3833,
+      "priority_rank": 49
+    },
+    {
+      "house_id": 33,
+      "lat": 30.734965,
+      "lng": 76.783277,
+      "risk_score": 0,
+      "risk_level": "low",
+      "reason": {
+        "primary": "statistical anomaly",
+        "secondary": []
+      },
+      "confidence": "low (<35%)",
+      "zone": "Normal Zone",
+      "anomaly_score": -0.374391,
+      "average_consumption": 8.108,
+      "max_consumption": 12.1118,
+      "std_consumption": 3.2428,
+      "night_usage_ratio": 0.2081,
+      "consumption_difference": -0.6483,
+      "transformer_load_share": 0.3051,
+      "priority_rank": 50
+    }
+  ],
+  "last_updated": "2026-04-19T11:30:02"
+}
